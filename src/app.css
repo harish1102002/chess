@@ -60,7 +60,7 @@ img{
 		padding-left: 0;
 		width: 96vw;
 		height: 96vw;
-	  padding-top: max(calc((96vh - 100vw)/2),0);
+	  margin-top: max(calc((96vh - 100vw)/2),0);
 	}
 	
 }
@@ -70,5 +70,5 @@ img{
 
 .h
 {
-	padding-top: max(calc((96vh - 100vw)/2),0);
+	margin-top: max(calc((96vh - 100vw)/2),0);
 }
