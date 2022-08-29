@@ -4,7 +4,6 @@
 	transform: rotateX(180deg);
 	transition-duration: 2.5s;
 	overflow: hidden !important;
-	margin-top: -20px;
   }
 
 body{
@@ -60,7 +59,7 @@ img{
 		padding-left: 0;
 		width: 96vw;
 		height: 96vw;
-	  margin-top: max(calc((96vh - 100vw)/2),0);
+	  margin-top: calc((97vh - 100vw)/2);
 	}
 	
 }
@@ -70,7 +69,7 @@ img{
 
 .h
 {
-	margin-top: max(calc((96vh - 100vw)/2),0);
+	margin-top: calc((97vh - 100vw)/2);
 }
 
 }
