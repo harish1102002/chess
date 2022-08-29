@@ -60,6 +60,7 @@ img{
 		padding-left: 0;
 		width: 96vw;
 		height: 96vw;
+	margin-top: max(calc((96vh - 100vw)/2),0);
 	}
 	
 }
