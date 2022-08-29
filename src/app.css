@@ -1,9 +1,10 @@
 .h{
-	height: 98.5vh;
+	height: 99vh;
 	width: 100vh;
 	transform: rotateX(180deg);
 	transition-duration: 2.5s;
 	overflow: hidden !important;
+	margin-top: 0;
   }
 
 body{
@@ -59,7 +60,14 @@ img{
 		padding-left: 0;
 		width: 96vw;
 		height: 96vw;
-	margin-top: calc(96vh - 100vw)/2;
 	}
 	
+}
+
+@media only screen and (max-width: 600px)
+{
+
+.h
+{
+	margin-top: max(calc(96vh - 100vw)/2,0);
 }
