@@ -1,10 +1,10 @@
 .h{
-	height: 99vh;
+	height: 100vh;
 	width: 100vh;
 	transform: rotateX(180deg);
 	transition-duration: 2.5s;
 	overflow: hidden !important;
-	margin-top: 0;
+	margin-top: -20px;
   }
 
 body{
