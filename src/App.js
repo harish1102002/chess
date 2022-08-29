@@ -459,19 +459,21 @@ if(d.id[1]=='q')
       }
   else
     a1-=1;
+
   if(Number(e.className[3])<Number(d.parentNode.className[3]))
     {
       a1=Number(e.className[4])-a2;
       a2=-1*a2;
     }
+
   for(let i=Math.min(Number(d.parentNode.className[3]),Number(e.className[3]))+1;
     i<Math.max(Number(d.parentNode.className[3]),Number(e.className[3]));i++)
    {
-    alert(e.parentNode.childNodes[i*8+a1+1].className);
     if(e.parentNode.childNodes[i*8+a1+1].childNodes.length!=0)
       return false;
     a1+=a2;
    }
+   
   return true;
   }
   return false;
