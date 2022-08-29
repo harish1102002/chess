@@ -1,15 +1,14 @@
 .h{
-	height: 528px;
-	padding-left: 300px;
-	width: 650px;
+	height: 98.5vh;
+	width: 100vh;
 	transform: rotateX(180deg);
 	transition-duration: 2.5s;
-	padding-bottom: 65px;
 	overflow: hidden !important;
   }
 
 body{
-  
+  display: flex;
+  justify-content: center;
   background : black;
 }
 
@@ -39,7 +38,7 @@ img{
 
 .sacri,.sacri2{padding-left: 150px;display: none;}
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 1000px)
 {
 	.App00,.App04,.App02,.App06,.App13,.App11,.App15,.App17,.App33,.App31,.App35,.App37,.App20,.App24,.App22,.App26,
 .App40,.App44,.App42,.App46,.App53,.App51,.App55,.App57,.App73,.App71,.App75,.App77,.App60,.App64,.App62,.App66,
