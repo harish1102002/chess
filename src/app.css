@@ -13,8 +13,8 @@ body{
 }
 
 img{
-	height: 10vh;
-	width: 10vh;
+	height: 15vh;
+	width: 15vh;
 }
 
 .white,.whites,.blacks,.black
@@ -25,13 +25,13 @@ img{
 .App00,.App04,.App02,.App06,.App13,.App11,.App15,.App17,.App33,.App31,.App35,.App37,.App20,.App24,.App22,.App26,
 .App40,.App44,.App42,.App46,.App53,.App51,.App55,.App57,.App73,.App71,.App75,.App77,.App60,.App64,.App62,.App66
 {
-	float: left; width: 10vh;height: 10vh; background-size: contain;background-image: url("./chess/board.png");z-index: 2;
+	float: left; width: 15vh;height: 15vh; background-size: contain;background-image: url("./chess/board.png");z-index: 2;
 }
 
 .App03,.App01,.App05,.App07,.App10,.App14,.App12,.App16,.App23,.App21,.App25,.App27,.App30,.App34,.App32,.App36,
 .App43,.App41,.App45,.App47,.App50,.App54,.App52,.App56,.App63,.App61,.App65,.App67,.App70,.App74,.App72,.App76
 {
-	float: left; width: 10vh;height: 10vh; background-size: contain; background-image: url("./chess/board2.jpg");z-index: 2;
+	float: left; width: 15vh;height: 15vh; background-size: contain; background-image: url("./chess/board2.jpg");z-index: 2;
 }
 
 .whitep,.blackp{border: solid 2px black;}
